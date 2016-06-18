@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122D7A0C9422F58DAB9C0F7E /* Pods_CodairsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB2818AE0623CE79AEB87E2 /* Pods_CodairsUITests.framework */; };
+		283505598CD385D2E912A4AA /* Pods_Codairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397B1521D7215AD8B8BC2D2 /* Pods_Codairs.framework */; };
+		CA86793535DAF8DD2C38D71D /* Pods_CodairsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0757A39B20EE78B209511CB /* Pods_CodairsTests.framework */; };
 		DA6B58FF1D15DCE200BA4281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */; };
 		DA6B59011D15DCE200BA4281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B59001D15DCE200BA4281 /* ViewController.swift */; };
 		DA6B59041D15DCE200BA4281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6B59021D15DCE200BA4281 /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DB2818AE0623CE79AEB87E2 /* Pods_CodairsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodairsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1E9F97E813C9114F51B07B /* Pods-CodairsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodairsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodairsTests/Pods-CodairsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52A8C2D1F732701DECF965B7 /* Pods-Codairs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codairs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codairs/Pods-Codairs.release.xcconfig"; sourceTree = "<group>"; };
+		61D62F2A1EF0668D110BB625 /* Pods-CodairsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodairsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodairsTests/Pods-CodairsTests.release.xcconfig"; sourceTree = "<group>"; };
+		8397B1521D7215AD8B8BC2D2 /* Pods_Codairs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Codairs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D521098DA624602FDAE81F /* Pods-Codairs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codairs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codairs/Pods-Codairs.debug.xcconfig"; sourceTree = "<group>"; };
+		B0757A39B20EE78B209511CB /* Pods_CodairsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodairsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA2FE1B550FBC8B774D42D2 /* Pods-CodairsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodairsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodairsUITests/Pods-CodairsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D90225034E85A6E3E3E03D5B /* Pods-CodairsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodairsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodairsUITests/Pods-CodairsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DA6B58FB1D15DCE200BA4281 /* Codairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6B59001D15DCE200BA4281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283505598CD385D2E912A4AA /* Pods_Codairs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA86793535DAF8DD2C38D71D /* Pods_CodairsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122D7A0C9422F58DAB9C0F7E /* Pods_CodairsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BDE8AC62C99AE62B69AB923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8397B1521D7215AD8B8BC2D2 /* Pods_Codairs.framework */,
+				B0757A39B20EE78B209511CB /* Pods_CodairsTests.framework */,
+				1DB2818AE0623CE79AEB87E2 /* Pods_CodairsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D3A84B68D751B332646E54E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91D521098DA624602FDAE81F /* Pods-Codairs.debug.xcconfig */,
+				52A8C2D1F732701DECF965B7 /* Pods-Codairs.release.xcconfig */,
+				2B1E9F97E813C9114F51B07B /* Pods-CodairsTests.debug.xcconfig */,
+				61D62F2A1EF0668D110BB625 /* Pods-CodairsTests.release.xcconfig */,
+				CFA2FE1B550FBC8B774D42D2 /* Pods-CodairsUITests.debug.xcconfig */,
+				D90225034E85A6E3E3E03D5B /* Pods-CodairsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DA6B58F21D15DCE200BA4281 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				DA6B59121D15DCE200BA4281 /* Tests */,
 				DA6B591D1D15DCE200BA4281 /* UITests */,
 				DA6B58FC1D15DCE200BA4281 /* Products */,
+				4D3A84B68D751B332646E54E /* Pods */,
+				3BDE8AC62C99AE62B69AB923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6B59231D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "Codairs" */;
 			buildPhases = (
+				B92DA955AA88CA8527FD52DF /* [CP] Check Pods Manifest.lock */,
 				DA6B58F71D15DCE200BA4281 /* Sources */,
 				DA6B58F81D15DCE200BA4281 /* Frameworks */,
 				DA6B58F91D15DCE200BA4281 /* Resources */,
+				846E765386F9D3348FE48F6B /* [CP] Embed Pods Frameworks */,
+				9A87768C915644B4BB940F3D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6B59261D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsTests" */;
 			buildPhases = (
+				66C0246056EA1DC3F0F4EC88 /* [CP] Check Pods Manifest.lock */,
 				DA6B590B1D15DCE200BA4281 /* Sources */,
 				DA6B590C1D15DCE200BA4281 /* Frameworks */,
 				DA6B590D1D15DCE200BA4281 /* Resources */,
+				45C782DB6E6AA886E3E85597 /* [CP] Embed Pods Frameworks */,
+				D8E3655C9E382BD9F2AF8920 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA6B59291D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsUITests" */;
 			buildPhases = (
+				A07FEBE769E0E2BB46E9234D /* [CP] Check Pods Manifest.lock */,
 				DA6B59161D15DCE200BA4281 /* Sources */,
 				DA6B59171D15DCE200BA4281 /* Frameworks */,
 				DA6B59181D15DCE200BA4281 /* Resources */,
+				906A1189EA281E37043BAF3F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +302,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C782DB6E6AA886E3E85597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodairsTests/Pods-CodairsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66C0246056EA1DC3F0F4EC88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		846E765386F9D3348FE48F6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Codairs/Pods-Codairs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		906A1189EA281E37043BAF3F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodairsUITests/Pods-CodairsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A87768C915644B4BB940F3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Codairs/Pods-Codairs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07FEBE769E0E2BB46E9234D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B92DA955AA88CA8527FD52DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E3655C9E382BD9F2AF8920 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodairsTests/Pods-CodairsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA6B58F71D15DCE200BA4281 /* Sources */ = {
@@ -401,6 +572,7 @@
 		};
 		DA6B59241D15DCE200BA4281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D521098DA624602FDAE81F /* Pods-Codairs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Source/Info.plist;
@@ -413,6 +585,7 @@
 		};
 		DA6B59251D15DCE200BA4281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A8C2D1F732701DECF965B7 /* Pods-Codairs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Source/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		DA6B59271D15DCE200BA4281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1E9F97E813C9114F51B07B /* Pods-CodairsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CodairsTests/Info.plist;
@@ -437,6 +611,7 @@
 		};
 		DA6B59281D15DCE200BA4281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61D62F2A1EF0668D110BB625 /* Pods-CodairsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CodairsTests/Info.plist;
@@ -449,6 +624,7 @@
 		};
 		DA6B592A1D15DCE200BA4281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA2FE1B550FBC8B774D42D2 /* Pods-CodairsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CodairsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		DA6B592B1D15DCE200BA4281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90225034E85A6E3E3E03D5B /* Pods-CodairsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CodairsUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
