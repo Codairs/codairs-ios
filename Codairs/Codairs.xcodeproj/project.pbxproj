@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6B58FF1D15DCE200BA4281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */; };
+		DA6B59011D15DCE200BA4281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B59001D15DCE200BA4281 /* ViewController.swift */; };
+		DA6B59041D15DCE200BA4281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6B59021D15DCE200BA4281 /* Main.storyboard */; };
+		DA6B59061D15DCE200BA4281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6B59051D15DCE200BA4281 /* Assets.xcassets */; };
+		DA6B59091D15DCE200BA4281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6B59071D15DCE200BA4281 /* LaunchScreen.storyboard */; };
+		DA6B59141D15DCE200BA4281 /* CodairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B59131D15DCE200BA4281 /* CodairsTests.swift */; };
+		DA6B591F1D15DCE200BA4281 /* CodairsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B591E1D15DCE200BA4281 /* CodairsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA6B59101D15DCE200BA4281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6B58F31D15DCE200BA4281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6B58FA1D15DCE200BA4281;
+			remoteInfo = Codairs;
+		};
+		DA6B591B1D15DCE200BA4281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA6B58F31D15DCE200BA4281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA6B58FA1D15DCE200BA4281;
+			remoteInfo = Codairs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA6B58FB1D15DCE200BA4281 /* Codairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA6B59001D15DCE200BA4281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA6B59031D15DCE200BA4281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA6B59051D15DCE200BA4281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA6B59081D15DCE200BA4281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA6B590A1D15DCE200BA4281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6B590F1D15DCE200BA4281 /* CodairsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodairsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B59131D15DCE200BA4281 /* CodairsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodairsTests.swift; sourceTree = "<group>"; };
+		DA6B59151D15DCE200BA4281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6B591A1D15DCE200BA4281 /* CodairsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodairsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6B591E1D15DCE200BA4281 /* CodairsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodairsUITests.swift; sourceTree = "<group>"; };
+		DA6B59201D15DCE200BA4281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6B58F81D15DCE200BA4281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B590C1D15DCE200BA4281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B59171D15DCE200BA4281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6B58F21D15DCE200BA4281 = {
+			isa = PBXGroup;
+			children = (
+				DA6B58FD1D15DCE200BA4281 /* Codairs */,
+				DA6B59121D15DCE200BA4281 /* CodairsTests */,
+				DA6B591D1D15DCE200BA4281 /* CodairsUITests */,
+				DA6B58FC1D15DCE200BA4281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6B58FC1D15DCE200BA4281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B58FB1D15DCE200BA4281 /* Codairs.app */,
+				DA6B590F1D15DCE200BA4281 /* CodairsTests.xctest */,
+				DA6B591A1D15DCE200BA4281 /* CodairsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6B58FD1D15DCE200BA4281 /* Codairs */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */,
+				DA6B59001D15DCE200BA4281 /* ViewController.swift */,
+				DA6B59021D15DCE200BA4281 /* Main.storyboard */,
+				DA6B59051D15DCE200BA4281 /* Assets.xcassets */,
+				DA6B59071D15DCE200BA4281 /* LaunchScreen.storyboard */,
+				DA6B590A1D15DCE200BA4281 /* Info.plist */,
+			);
+			path = Codairs;
+			sourceTree = "<group>";
+		};
+		DA6B59121D15DCE200BA4281 /* CodairsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B59131D15DCE200BA4281 /* CodairsTests.swift */,
+				DA6B59151D15DCE200BA4281 /* Info.plist */,
+			);
+			path = CodairsTests;
+			sourceTree = "<group>";
+		};
+		DA6B591D1D15DCE200BA4281 /* CodairsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B591E1D15DCE200BA4281 /* CodairsUITests.swift */,
+				DA6B59201D15DCE200BA4281 /* Info.plist */,
+			);
+			path = CodairsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6B58FA1D15DCE200BA4281 /* Codairs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6B59231D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "Codairs" */;
+			buildPhases = (
+				DA6B58F71D15DCE200BA4281 /* Sources */,
+				DA6B58F81D15DCE200BA4281 /* Frameworks */,
+				DA6B58F91D15DCE200BA4281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codairs;
+			productName = Codairs;
+			productReference = DA6B58FB1D15DCE200BA4281 /* Codairs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA6B590E1D15DCE200BA4281 /* CodairsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6B59261D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsTests" */;
+			buildPhases = (
+				DA6B590B1D15DCE200BA4281 /* Sources */,
+				DA6B590C1D15DCE200BA4281 /* Frameworks */,
+				DA6B590D1D15DCE200BA4281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6B59111D15DCE200BA4281 /* PBXTargetDependency */,
+			);
+			name = CodairsTests;
+			productName = CodairsTests;
+			productReference = DA6B590F1D15DCE200BA4281 /* CodairsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA6B59191D15DCE200BA4281 /* CodairsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6B59291D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsUITests" */;
+			buildPhases = (
+				DA6B59161D15DCE200BA4281 /* Sources */,
+				DA6B59171D15DCE200BA4281 /* Frameworks */,
+				DA6B59181D15DCE200BA4281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA6B591C1D15DCE200BA4281 /* PBXTargetDependency */,
+			);
+			name = CodairsUITests;
+			productName = CodairsUITests;
+			productReference = DA6B591A1D15DCE200BA4281 /* CodairsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6B58F31D15DCE200BA4281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hamon Riazy";
+				TargetAttributes = {
+					DA6B58FA1D15DCE200BA4281 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DA6B590E1D15DCE200BA4281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA6B58FA1D15DCE200BA4281;
+					};
+					DA6B59191D15DCE200BA4281 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DA6B58FA1D15DCE200BA4281;
+					};
+				};
+			};
+			buildConfigurationList = DA6B58F61D15DCE200BA4281 /* Build configuration list for PBXProject "Codairs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA6B58F21D15DCE200BA4281;
+			productRefGroup = DA6B58FC1D15DCE200BA4281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6B58FA1D15DCE200BA4281 /* Codairs */,
+				DA6B590E1D15DCE200BA4281 /* CodairsTests */,
+				DA6B59191D15DCE200BA4281 /* CodairsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6B58F91D15DCE200BA4281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B59091D15DCE200BA4281 /* LaunchScreen.storyboard in Resources */,
+				DA6B59061D15DCE200BA4281 /* Assets.xcassets in Resources */,
+				DA6B59041D15DCE200BA4281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B590D1D15DCE200BA4281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B59181D15DCE200BA4281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6B58F71D15DCE200BA4281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B59011D15DCE200BA4281 /* ViewController.swift in Sources */,
+				DA6B58FF1D15DCE200BA4281 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B590B1D15DCE200BA4281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B59141D15DCE200BA4281 /* CodairsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6B59161D15DCE200BA4281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6B591F1D15DCE200BA4281 /* CodairsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA6B59111D15DCE200BA4281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6B58FA1D15DCE200BA4281 /* Codairs */;
+			targetProxy = DA6B59101D15DCE200BA4281 /* PBXContainerItemProxy */;
+		};
+		DA6B591C1D15DCE200BA4281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA6B58FA1D15DCE200BA4281 /* Codairs */;
+			targetProxy = DA6B591B1D15DCE200BA4281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA6B59021D15DCE200BA4281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6B59031D15DCE200BA4281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA6B59071D15DCE200BA4281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6B59081D15DCE200BA4281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA6B59211D15DCE200BA4281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA6B59221D15DCE200BA4281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6B59241D15DCE200BA4281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Codairs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.Codairs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA6B59251D15DCE200BA4281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Codairs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.Codairs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA6B59271D15DCE200BA4281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodairsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.CodairsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codairs.app/Codairs";
+			};
+			name = Debug;
+		};
+		DA6B59281D15DCE200BA4281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodairsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.CodairsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codairs.app/Codairs";
+			};
+			name = Release;
+		};
+		DA6B592A1D15DCE200BA4281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodairsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.CodairsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Codairs;
+			};
+			name = Debug;
+		};
+		DA6B592B1D15DCE200BA4281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodairsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.CodairsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Codairs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6B58F61D15DCE200BA4281 /* Build configuration list for PBXProject "Codairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B59211D15DCE200BA4281 /* Debug */,
+				DA6B59221D15DCE200BA4281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6B59231D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "Codairs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B59241D15DCE200BA4281 /* Debug */,
+				DA6B59251D15DCE200BA4281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA6B59261D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B59271D15DCE200BA4281 /* Debug */,
+				DA6B59281D15DCE200BA4281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA6B59291D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B592A1D15DCE200BA4281 /* Debug */,
+				DA6B592B1D15DCE200BA4281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6B58F31D15DCE200BA4281 /* Project object */;
+}
