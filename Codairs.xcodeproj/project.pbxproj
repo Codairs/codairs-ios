@@ -14,6 +14,7 @@
 		DA6B59091D15DCE200BA4281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6B59071D15DCE200BA4281 /* LaunchScreen.storyboard */; };
 		DA6B59141D15DCE200BA4281 /* CodairsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B59131D15DCE200BA4281 /* CodairsTests.swift */; };
 		DA6B591F1D15DCE200BA4281 /* CodairsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B591E1D15DCE200BA4281 /* CodairsUITests.swift */; };
+		DA6B592D1D15DDC900BA4281 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA6B592C1D15DDC900BA4281 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA6B591A1D15DCE200BA4281 /* CodairsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodairsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6B591E1D15DCE200BA4281 /* CodairsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodairsUITests.swift; sourceTree = "<group>"; };
 		DA6B59201D15DCE200BA4281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6B592C1D15DDC900BA4281 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		DA6B58F21D15DCE200BA4281 = {
 			isa = PBXGroup;
 			children = (
-				DA6B58FD1D15DCE200BA4281 /* Codairs */,
-				DA6B59121D15DCE200BA4281 /* CodairsTests */,
-				DA6B591D1D15DCE200BA4281 /* CodairsUITests */,
+				DA6B58FD1D15DCE200BA4281 /* Source */,
+				DA6B59121D15DCE200BA4281 /* Tests */,
+				DA6B591D1D15DCE200BA4281 /* UITests */,
 				DA6B58FC1D15DCE200BA4281 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,7 +96,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA6B58FD1D15DCE200BA4281 /* Codairs */ = {
+		DA6B58FD1D15DCE200BA4281 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */,
@@ -103,26 +105,27 @@
 				DA6B59051D15DCE200BA4281 /* Assets.xcassets */,
 				DA6B59071D15DCE200BA4281 /* LaunchScreen.storyboard */,
 				DA6B590A1D15DCE200BA4281 /* Info.plist */,
+				DA6B592C1D15DDC900BA4281 /* GoogleService-Info.plist */,
 			);
-			path = Codairs;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		DA6B59121D15DCE200BA4281 /* CodairsTests */ = {
+		DA6B59121D15DCE200BA4281 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				DA6B59131D15DCE200BA4281 /* CodairsTests.swift */,
 				DA6B59151D15DCE200BA4281 /* Info.plist */,
 			);
-			path = CodairsTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		DA6B591D1D15DCE200BA4281 /* CodairsUITests */ = {
+		DA6B591D1D15DCE200BA4281 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
 				DA6B591E1D15DCE200BA4281 /* CodairsUITests.swift */,
 				DA6B59201D15DCE200BA4281 /* Info.plist */,
 			);
-			path = CodairsUITests;
+			path = UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6B59091D15DCE200BA4281 /* LaunchScreen.storyboard in Resources */,
+				DA6B592D1D15DDC900BA4281 /* GoogleService-Info.plist in Resources */,
 				DA6B59061D15DCE200BA4281 /* Assets.xcassets in Resources */,
 				DA6B59041D15DCE200BA4281 /* Main.storyboard in Resources */,
 			);
@@ -399,7 +403,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Codairs/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.Codairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Codairs/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryce.Codairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +488,7 @@
 				DA6B59251D15DCE200BA4281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA6B59261D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				DA6B59281D15DCE200BA4281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA6B59291D15DCE200BA4281 /* Build configuration list for PBXNativeTarget "CodairsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +506,7 @@
 				DA6B592B1D15DCE200BA4281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
