@@ -11,6 +11,7 @@
 		283505598CD385D2E912A4AA /* Pods_Codairs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8397B1521D7215AD8B8BC2D2 /* Pods_Codairs.framework */; };
 		CA86793535DAF8DD2C38D71D /* Pods_CodairsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0757A39B20EE78B209511CB /* Pods_CodairsTests.framework */; };
 		DA17C10B1D16782900BA4E06 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA17C10A1D16782900BA4E06 /* SignUpViewController.swift */; };
+		DA17C10E1D16A59900BA4E06 /* Aileron-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA17C10D1D16A59900BA4E06 /* Aileron-Regular.otf */; };
 		DA6B58FF1D15DCE200BA4281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */; };
 		DA6B59011D15DCE200BA4281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6B59001D15DCE200BA4281 /* ViewController.swift */; };
 		DA6B59041D15DCE200BA4281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6B59021D15DCE200BA4281 /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		CFA2FE1B550FBC8B774D42D2 /* Pods-CodairsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodairsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodairsUITests/Pods-CodairsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D90225034E85A6E3E3E03D5B /* Pods-CodairsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodairsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodairsUITests/Pods-CodairsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DA17C10A1D16782900BA4E06 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DA17C10D1D16A59900BA4E06 /* Aileron-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Aileron-Regular.otf"; path = "Ressources/Aileron-Regular.otf"; sourceTree = SOURCE_ROOT; };
 		DA6B58FB1D15DCE200BA4281 /* Codairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6B58FE1D15DCE200BA4281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6B59001D15DCE200BA4281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,10 +141,20 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		DA17C10C1D16A55600BA4E06 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				DA17C10D1D16A59900BA4E06 /* Aileron-Regular.otf */,
+			);
+			name = Ressources;
+			path = Source;
+			sourceTree = "<group>";
+		};
 		DA6B58F21D15DCE200BA4281 = {
 			isa = PBXGroup;
 			children = (
 				DA6B58FD1D15DCE200BA4281 /* Source */,
+				DA17C10C1D16A55600BA4E06 /* Ressources */,
 				DA6B59121D15DCE200BA4281 /* Tests */,
 				DA6B591D1D15DCE200BA4281 /* UITests */,
 				DA6B58FC1D15DCE200BA4281 /* Products */,
@@ -316,6 +328,7 @@
 				DA6B592D1D15DDC900BA4281 /* GoogleService-Info.plist in Resources */,
 				DA6B59061D15DCE200BA4281 /* Assets.xcassets in Resources */,
 				DA6B59041D15DCE200BA4281 /* Main.storyboard in Resources */,
+				DA17C10E1D16A59900BA4E06 /* Aileron-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
